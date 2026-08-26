@@ -1,9 +1,11 @@
 class Solution:
     def largestInteger(self, nums: List[int], k: int) -> int:
         count={}
+        
         for i in range(len(nums)-k+1):
             window=nums[i:i+k]
             unique=set(window)
+
             for num in unique:
                 count[num] = count.get(num, 0) + 1
 
