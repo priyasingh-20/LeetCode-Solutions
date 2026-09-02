@@ -16,4 +16,5 @@ class Solution:
                 Rsum += int(num[i + n])
         diff = Rsum - Lsum
         Qdiff = QLcount - QRcount
+        
         return 2 * diff != 9 * Qdiff
