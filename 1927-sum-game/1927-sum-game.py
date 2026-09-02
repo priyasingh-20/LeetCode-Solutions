@@ -5,13 +5,11 @@ class Solution:
         Rsum = 0
         QLcount = 0
         QRcount = 0
-
         for i in range(n):
             if num[i] == "?":
                 QLcount += 1
             else:
                 Lsum += int(num[i])
-
             if num[i + n] == "?":
                 QRcount += 1
             else:
