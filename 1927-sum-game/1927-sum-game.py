@@ -14,7 +14,6 @@ class Solution:
                 QRcount += 1
             else:
                 Rsum += int(num[i + n])
-
         diff = Rsum - Lsum
         Qdiff = QLcount - QRcount
 
