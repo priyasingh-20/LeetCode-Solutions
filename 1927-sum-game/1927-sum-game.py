@@ -1,7 +1,6 @@
 class Solution:
     def sumGame(self, num: str) -> bool:
         n = len(num) // 2
-
         Lsum = 0
         Rsum = 0
         QLcount = 0
