@@ -6,7 +6,6 @@ class Solution:
                 ans.append(i)
             else:
                 ans.insert(0,i)
-        
         return ans
                 
                 
