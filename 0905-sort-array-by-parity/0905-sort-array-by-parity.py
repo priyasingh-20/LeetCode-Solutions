@@ -7,6 +7,7 @@ class Solution:
         for i in nums:
             if i%2!=0:
                 ans.append(i) 
+                
         return ans
                 
                 
