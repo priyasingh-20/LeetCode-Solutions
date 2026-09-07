@@ -4,7 +4,6 @@ class Solution:
         counter=Counter(candyType)
         n=len(candyType)
         a=len(counter)
-        
         if a<=n//2:
             return a
         else:
