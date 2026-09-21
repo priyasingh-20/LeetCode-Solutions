@@ -5,4 +5,5 @@ class Solution:
         total=0
         for i in range(len(s)):
             total+=(ts.index(s[i])+1)*(i+1)
+            
         return total
