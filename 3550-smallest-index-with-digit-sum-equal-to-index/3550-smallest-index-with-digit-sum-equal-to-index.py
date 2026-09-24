@@ -3,5 +3,6 @@ class Solution:
         for i in range(len(nums)):
             if i==sum(int(j) for j in str(nums[i])):
                 return i
+                
         return -1
         
