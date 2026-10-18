@@ -18,3 +18,12 @@ class Solution:
         return nums[left]
 
 
+#Less optimal because if complexity is O(n) so we applied binary search
+# from collections import Counter
+# class Solution:
+#     def singleNonDuplicate(self, nums: List[int]) -> int:
+#         counter=Counter(nums)
+#         for i in set(nums):
+#             if counter[i]==1:
+#                 return i
+
